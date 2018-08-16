@@ -3,11 +3,11 @@ var utility = require('../utilities/util.js');
 
 var toDoItemCountFromLabel;
 
-var toDoItem1 = 'Get the furniture assembled '+utility.getRandomString(3);
-var toDoItem2 = 'Send condolences to relative '+utility.getRandomString(3);
+var toDoItem1 = 'Get the furniture assembled '+ utility.getRandomString(3);
+var toDoItem2 = 'Send condolences to relative '+ utility.getRandomString(3);
 var homePageTitle = 'Node/Angular Todo App';
 
-describe('Protractor Demo App', function() {
+describe('To-Do Task Item : End-to-End Tests', function() {
 
     beforeAll(function() {
         browser.get('http://localhost:8080/');
