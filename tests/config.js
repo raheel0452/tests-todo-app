@@ -5,9 +5,9 @@ exports.config = {
         endtoend: './endtoendtests/*.spec.js',
         api: './apiintegrationtests/*.spec.js'
     },
-    directConnect:true,
+    directConnect: true,
     capabilities: {
-        browserName:'chrome'
+        browserName: 'chrome'
     },
-    jasmineNodeOpts:{defaultTimeoutInterval:60000}
+    jasmineNodeOpts: {defaultTimeoutInterval: 60000}
 };

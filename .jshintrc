@@ -1,0 +1,7 @@
+{
+    "undef":true,
+    "unused":true,
+    "latedef":true,
+    "trailing":true,
+    "curly":true
+}
