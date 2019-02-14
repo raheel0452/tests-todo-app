@@ -19,21 +19,13 @@ jobs:
     steps:
       - checkout
 
-      - run:
-        name: update-npm
-        command: 'sudo npm install -g npm@latest'
+      - run: 'sudo npm install -g npm@latest' #update-npm
 
-      - run:
-        name: install application
-        command: 'npm install'
+      - run: 'npm install' #install application
 
-      - run:
-        name: start server
-        command: 'npm start'
+      - run: 'npm start' #start server
 
-      - run:
-        name: run tests
-        command: 'npm test'
+      - run: 'npm test' #run tests
 
 workflows:
     version: 2
