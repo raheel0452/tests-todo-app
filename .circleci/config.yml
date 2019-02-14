@@ -23,7 +23,8 @@ jobs:
 
        #- run: 'curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.2/install.sh | bash' #install application
        #- run: nvm install node
-       -run: npm clean cache
+
+    - run: npm clean cache
 
       - run: 'npm install' #install application
 
