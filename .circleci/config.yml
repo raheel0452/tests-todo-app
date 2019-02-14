@@ -23,12 +23,11 @@ jobs:
         name: update-npm
         command: 'sudo npm install -g npm@latest'
 
-build:
-    test:
-        steps:
-            - run:
-                name: run tests
-                command: 'npm test'
+  test:
+    steps:
+    - run:
+        name: run tests
+        command: 'npm test'
 
 workflows:
     version: 2
